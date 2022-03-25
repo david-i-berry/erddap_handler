@@ -3,7 +3,7 @@ FROM ubuntu:focal
 ENV FLASK_APP=erddap_handler \
 	TZ="Etc/UTC" \
 	DEBIAN_FRONTEND="noninteractive" \
-	WIS2BOX_DATA="/local/data/"
+	WIS2BOX_DATADIR="/local/data"
 
 WORKDIR /tmp/erddap
 

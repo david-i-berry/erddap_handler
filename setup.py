@@ -9,6 +9,8 @@ setup(
         'Flask-Limiter',
         'pyopenssl',
         'pandas',
-        'isodate'
+        'isodate',
+        'pyyaml',
+        'requests'
     ],
 )
