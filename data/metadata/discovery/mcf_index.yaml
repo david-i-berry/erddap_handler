@@ -1,0 +1,6 @@
+index:
+  data:
+    core:
+      observations-surface-ocean:
+        int:
+          oceanMobile: osmc_90day_rt_gts.yaml

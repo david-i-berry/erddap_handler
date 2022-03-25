@@ -1,0 +1,107 @@
+wis2box:
+    retention: P30D
+    topic_hierarchy: data.core.observations-surface-ocean.int.oceanMobile
+    data_category: observationsSurfaceOcean
+    country_code: us
+    originator: OSMC
+    station_type: oceanMobile
+
+mcf:
+  version: '1.0'
+
+metadata:
+  datestamp: '2022-03-23'
+  hierarchylevel: dataset
+  identifier: OSMC_30day
+
+spatial:
+  datatype: vector
+  geomtype: point
+
+identification:
+  abstract: Observing System Monitoring Center (OSMC) 30 day RT data. OSMC data from
+    a local source.
+  dates:
+    creation: '2022-03-23'
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -89.0
+      - 180.0
+      - 89.0
+    temporal:
+      - begin: 2021-11-29
+        end: null
+        resolution: PT1H
+  keywords:
+    keywords-0:
+      keywords:
+      - center
+      - data
+      - day
+      - monitoring
+      - observing
+      - osmc
+      - system
+      type: theme
+    keywords-1:
+      keywords:
+      - OSMC
+      type: project
+    keywords-2:
+      keywords:
+      - time
+      - latitude
+      - longitude
+      - sea_surface_temperature
+      - air_temperature
+      - sea_water_temperature
+      - sea_water_salinity
+      - air_pressure_at_sea_level
+      - wind_speed
+      - wind_from_direction
+      - sea_surface_wave_significant_height
+      - dew_point_temperature
+      - eastward_sea_water_velocity
+      - northward_sea_water_velocity
+      - upward_sea_water_velocity
+      - rainfall_rate
+      - relative_humidity
+      - sea_water_electrical_conductivity
+      - surface_downwelling_longwave_flux_in_air
+      - surface_downwelling_shortwave_flux_in_air
+      - wind_to_direction
+      - longitude
+      type: theme
+  status: null
+  title: OSMC 90 day RT data
+  url: https://upwell.pfeg.noaa.gov/erddap/tabledap/OSMC_Points
+  topiccategory:
+  - geoscientificInformation
+
+contact:
+  distributor:
+    address: 7600 Sand Point Way NE
+    administrativearea: WA
+    city: Seattle
+    country: USA
+    email: kevin.m.obrien@noaa.gov
+    fax: null
+    individualname: Kevin OBrien
+    organization: OSMC
+    phone: +1 206-555-1212
+    positionname: null
+    postalcode: '98115'
+  pointOfContact:
+    address: 7600 Sand Point Way NE
+    administrativearea: WA
+    city: Seattle
+    country: USA
+    email: kevin.m.obrien@noaa.gov
+    fax: null
+    individualname: Kevin OBrien
+    organization: OSMC
+    phone: +1 206-555-1212
+    positionname: null
+    postalcode: '98115'
