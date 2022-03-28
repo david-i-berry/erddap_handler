@@ -3,4 +3,8 @@ index:
     core:
       observations-surface-ocean:
         int:
-          oceanMobile: osmc_90day_rt_gts.yaml
+          oceanMobile:
+            - osmc_90day_rt_gts.yaml
+        us:
+          oceanMobile:
+            - wyp8657_ais_iso19115.yaml

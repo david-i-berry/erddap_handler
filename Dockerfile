@@ -8,7 +8,7 @@ ENV FLASK_APP=erddap_handler \
 WORKDIR /tmp/erddap
 
 RUN apt-get update -y \
-    && apt-get install -y python3 python3-pip python3-dev
+    && apt-get install -y python3 python3-pip python3-dev git
 
 COPY . /tmp/erddap_plugin
 

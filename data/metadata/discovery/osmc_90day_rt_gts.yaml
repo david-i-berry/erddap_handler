@@ -5,6 +5,7 @@ wis2box:
     country_code: us
     originator: OSMC
     station_type: oceanMobile
+    station_id: PLATFORM_CODE
 
 mcf:
   version: '1.0'
